@@ -5,7 +5,7 @@
 
 Name:		%{name}
 Version:	0.9.5
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		Sciences/Mathematics
 License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
@@ -30,7 +30,8 @@ This package contains the gf2x runtime library.
 Group:		Development/C
 License:	GOL
 Summary:	Library for multiplying polynomials over the binary field
-Provides:	lib%{name} = %{version}-%{release}
+Provides:	lib%{name}-devel = %{version}-%{release}
+Provides:	%{name}-devel = %{version}-%{release}
 
 %description	-n %{devname}
 Library for multiplying polynomials over the binary field.
