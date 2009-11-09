@@ -5,7 +5,7 @@
 
 Name:		%{name}
 Version:	0.9.5
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Sciences/Mathematics
 License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
@@ -32,6 +32,7 @@ License:	GOL
 Summary:	Library for multiplying polynomials over the binary field
 Provides:	lib%{name}-devel = %{version}-%{release}
 Provides:	%{name}-devel = %{version}-%{release}
+Requires:	lib%{name} = %{version}-%{release}
 
 %description	-n %{devname}
 Library for multiplying polynomials over the binary field.
