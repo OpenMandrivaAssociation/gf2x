@@ -4,12 +4,12 @@
 %define devname	%mklibname %{name} -d
 
 Name:		%{name}
-Version:	0.9.5
-Release:	%mkrel 4
+Version:	1.0
+Release:	%mkrel 1
 Group:		Sciences/Mathematics
 License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
-Source0:	http://gforge.inria.fr/frs/download.php/22129/gf2x-0.9.5.tar.gz
+Source0:	http://gforge.inria.fr/frs/download.php/27999/gf2x-1.0.tar.gz
 URL:		http://gforge.inria.fr/projects/gf2x/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
