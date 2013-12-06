@@ -4,7 +4,7 @@
 
 Name:		gf2x
 Version:	1.1
-Release:	1
+Release:	2
 Group:		Sciences/Mathematics
 License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
