@@ -3,7 +3,7 @@
 %define devname	%mklibname %{name} -d
 
 Name:		gf2x
-Version:	1.3
+Version:	1.3.0
 Release:	1
 Group:		Sciences/Mathematics
 License:	GPL
