@@ -3,12 +3,12 @@
 %define devname	%mklibname %{name} -d
 
 Name:		gf2x
-Version:	1.2
+Version:	1.3
 Release:	1
 Group:		Sciences/Mathematics
 License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
-Source0:	https://gforge.inria.fr/frs/download.php/file/36934/%{name}-%{version}.tar.gz
+Source0:	https://gforge.inria.fr/frs/download.php/latestfile/2350/%{name}-%{version}.tar.gz
 URL:		http://gforge.inria.fr/projects/gf2x/
 BuildRequires:	gmp-devel
 
@@ -42,7 +42,7 @@ gf2x is a library for multiplying polynomials over the binary field.
 %build
 # don't disable sse2 by default - this mean it may need to be rebuilt
 # from source on pentium 3 or older
-%configure2_5x --disable-static
+%configure --disable-static
 
 %make_build
 
