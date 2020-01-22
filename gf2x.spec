@@ -56,5 +56,6 @@ gf2x is a library for multiplying polynomials over the binary field.
 %{_includedir}/*.h
 %dir %{_includedir}/%{name}
 %{_includedir}/%{name}/*.h
+%{_libdir}/pkgconfig/gf2x.pc
 %{_libdir}/libgf2x.so
 
