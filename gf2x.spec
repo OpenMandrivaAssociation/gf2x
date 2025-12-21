@@ -10,6 +10,11 @@ License:	GPL
 Summary:	Library for multiplying polynomials over the binary field
 Source0:	https://gforge.inria.fr/frs/download.php/latestfile/2350/%{name}-%{version}.tar.gz
 URL:		https://gforge.inria.fr/projects/gf2x/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gmp-devel
 
 %package	-n %{libname}
